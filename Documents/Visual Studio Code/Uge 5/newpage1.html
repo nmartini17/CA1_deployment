@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New DOM page</title>
+    <style>
+        div { 
+            border: 1px solid black;
+            margin: 5px;
+            background-color: rebeccapurple;
+        }
+    </style>
+</head>
+<body>
+    <h1>Dom opgave/new page</h1>
+
+    <div id="div1" >click me</div>
+    <div id="div2" >click me</div>
+
+    #div1 {
+        width: 25px; 
+        height: 
+        25px;
+        background-color:yellow; 
+        margin:1px;
+      }
+      
+      #div2 {
+        width: 25px; 
+        height: 
+        25px;
+        background-color:yellow; 
+        margin:1px;
+      }
+
+    <script>type = "application/javascript"
+        var div1 = document.getElementById("div1").addEventListener("click", div1);
+
+        var div2 = document.getElementById('div2').addEventListener("click", div2);
+
+        function div1(){
+            div1.onclick = console.log("Hello from div 1")
+        }
+
+        function div2(){
+            div2.onclick = console.log("Hello from div 2")
+        }
+    
+    </script>
+</body>
+</html>

@@ -1,0 +1,36 @@
+/*Kiki Gotaway styles*/
+
+.header {
+  padding-left: 10px;
+  border-bottom: 2px solid black;
+}
+
+.header1 {
+  padding-left: 10px;
+}
+
+.burgermenu {
+  margin-top: 10px;
+  margin-right: 10px;
+  border: 1px solid black;
+  width: 30px;
+  height: 30px;
+  float: right;
+}
+
+.slider {
+  border: 2px solid black;
+  height: 100px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.menuitem {
+  border: 2px solid black;
+  height: 70px;
+  padding: 20px;
+}
+
+.categorybutton {
+  margin-left: 10px;
+}
